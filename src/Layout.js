@@ -7,7 +7,11 @@ const Layout = ({ children }) => (
     <Helmet>
       <title>Fuzzy Foodie Search</title>
       <meta name="description" content="A tasty search app" />
-      <link rel="canonical" href="http://mysite.com/example" />
+      <link
+        rel="canonical"
+        href="https://fuzzy-search-input.netlify.app
+"
+      />
     </Helmet>
     <div>
       <main>{children}</main>
